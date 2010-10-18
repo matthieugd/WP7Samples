@@ -46,11 +46,11 @@
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <Border Background="#02FFFFFF" BorderThickness="0"/>
-                            <Path x:Name="DefaultRatingItem" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Width="15" Opacity="1" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z" Fill="#FFE5E5E5"/>
+                                <Path Width="20" x:Name="DefaultRatingItem" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch"  Opacity="1" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z" Fill="#FFE5E5E5"/>
                             <inputToolkitPrimitives:LinearClipper RatioVisible="{TemplateBinding DisplayValue}" ExpandDirection="Right">
-                                <Path Fill="{TemplateBinding Foreground}" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z"/>
+                                <Path Width="20" Fill="{TemplateBinding Foreground}" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z"/>
                             </inputToolkitPrimitives:LinearClipper>
-                            <Path x:Name="MouseOverRatingItem" Fill="Black" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" HorizontalAlignment="Left" VerticalAlignment="Stretch" Width="15" Opacity="0" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z"/>
+                                <Path Width="20" x:Name="MouseOverRatingItem" Fill="Black" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" HorizontalAlignment="Left" VerticalAlignment="Stretch"  Opacity="0" UseLayoutRounding="False" Data="M15,0 L15,23.023449 L5.7294912,30 L9.1750822,18.573566 L0,11.459046 L11.399999,11.373603 z"/>
                             <ContentPresenter x:Name="Content" Cursor="{TemplateBinding Cursor}" HorizontalAlignment="Left" Margin="{TemplateBinding Padding}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
                         </Grid>
                     </ControlTemplate>
@@ -96,11 +96,11 @@
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                             <Border Background="#02FFFFFF" BorderThickness="0"/>
-                            <Path x:Name="DefaultRatingItem" Fill="#FFE7E7E7" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z" Width="15"/>
-                            <inputToolkitPrimitives:LinearClipper RatioVisible="{TemplateBinding DisplayValue}" ExpandDirection="Right" Width="15">
-                                <Path x:Name="DefaultRatingItem_Copy" Fill="{TemplateBinding Foreground}" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z" Height="30"/>
+                                <Path Width="20" x:Name="DefaultRatingItem" Fill="#FFE7E7E7" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z" />
+                            <inputToolkitPrimitives:LinearClipper RatioVisible="{TemplateBinding DisplayValue}" ExpandDirection="Right">
+                                <Path Width="20" x:Name="DefaultRatingItem_Copy" Fill="{TemplateBinding Foreground}" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="1" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z" />
                             </inputToolkitPrimitives:LinearClipper>
-                            <Path x:Name="MouseOverRatingItem" Fill="Black" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="0" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z" Width="15"/>
+                                <Path Width="20" x:Name="MouseOverRatingItem" Fill="Black" Stretch="Fill" StrokeLineJoin="Round" StrokeThickness="0.4" VerticalAlignment="Stretch" Opacity="0" UseLayoutRounding="False" Data="M0,11.459028 z M15,0 L18.599995,11.373585 L29.999994,11.459028 L20.824949,18.573547 L24.270514,29.999981 L15,23.023434 z"/>
                             <ContentPresenter x:Name="Content" Cursor="{TemplateBinding Cursor}" HorizontalAlignment="Left" Margin="{TemplateBinding Padding}" Content="{TemplateBinding Content}" ContentTemplate="{TemplateBinding ContentTemplate}"/>
                         </Grid>
                     </ControlTemplate>

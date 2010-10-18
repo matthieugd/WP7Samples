@@ -40,7 +40,7 @@
                     </ItemsPanelTemplate>
                 </ControlsToolkit:Rating.ItemsPanel>
             </ControlsToolkit:Rating>
-            <ControlsToolkit:Rating Grid.Row="1" Value="0.65" ItemCount="0">
+            <ControlsToolkit:Rating Height="40" Grid.Row="1" Value="0.65" ItemCount="0">
                 <ControlsToolkit:RatingItem Foreground="#FFFFD902" Style="{StaticResource RatingItemLeftStyle}"/>
                 <ControlsToolkit:RatingItem Foreground="#FFFFD902" Margin="0" Style="{StaticResource RatingItemRightStyle}" />
                 <ControlsToolkit:RatingItem Foreground="#FFFFD902" Style="{StaticResource RatingItemLeftStyle}"/>
